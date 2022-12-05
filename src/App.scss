@@ -2,7 +2,16 @@
 @import "./assets/scss/variables";
 @import "./components/components";
 
+@import "./layouts//Header/header";
+
 * {
   font-family: "Tajawal", sans-serif;
   margin: 0;
+}
+body{
+  background: $light_cyan;
+}
+
+.App{
+  margin: 0 50px;
 }

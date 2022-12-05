@@ -2,8 +2,9 @@ import Logo from "../../components/Logo";
 
 const Header = () => {
   return (
-    <header>
+    <header className="navBar">
       <Logo />
+      <div className="nbrOfTasks">Il y'a 5 matiéres.</div>
     </header>
   );
 };
