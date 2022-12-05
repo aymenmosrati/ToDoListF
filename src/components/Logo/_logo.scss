@@ -1,13 +1,14 @@
 .logo {
+  display: flex;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 50px;
-
-    .logoFirstName {
-      color: $blue4;
-    }
-    .logoLastName{
-      color: $blue0;
-    }
+  .imgLogo {
+    width: 50px;
+    height: 50px;
+  }
+  .titleLogo {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15px;
+    color: $grey3;
+  }
 }
-  

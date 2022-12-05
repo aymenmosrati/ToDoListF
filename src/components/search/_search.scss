@@ -1,0 +1,23 @@
+.navbarSearch {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  background: rgba(128, 128, 128, 0.2196078431);
+  padding: 7px 12px 1px 18px;
+  border-radius: 14px;
+  width: 34vw;
+  .navbarSearchIcon {
+    margin-right: 5px;
+    margin-bottom: 7px;
+  }
+  .navbarSearchInput {
+    // padding: 20px;
+    all: unset;
+
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 5px 10px;
+    // background: rgba(128, 128, 128, 0.2);
+  }
+}

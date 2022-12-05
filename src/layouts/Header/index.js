@@ -1,10 +1,12 @@
 import Logo from "../../components/Logo";
+import Search from "../../components/search";
 
 const Header = () => {
   return (
-    <header className="navBar">
+    <header className="navbar">
       <Logo />
-      <div className="nbrOfTasks">Il y'a 5 matiéres.</div>
+      <Search />
+      <img />
     </header>
   );
 };
