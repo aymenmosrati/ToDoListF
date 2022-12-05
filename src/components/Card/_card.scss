@@ -1,26 +1,41 @@
 .card {
-    background-color: $pure_white;
-    width: 250px;
-    height: auto;
-    border-radius: 15px;
-    padding-left: 25px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    color: $blue4;
+  position: relative;
+  background-color: $pure_white;
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: $blue4;
+  .cardIconFi_more {
+    position: absolute;
+    padding-left: 210px;
+    opacity: 0.5;
+  }
 
-    .nom {
-        font-size: 2.5em;
-        font-weight: bold;
-    }
+  .nom {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
 
-    .description {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
-        line-height: 1.2em;
-        max-height: 3em;
-        font-weight: 500;
-    }
+  .description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1.2em;
+    max-height: 3em;
+    font-weight: 500;
+  }
+}
+
+.card:hover {
+  opacity: 0.8;
+  svg:hover {
+    background-color: rgb(236, 236, 236);
+    border-radius: 60%;
+    cursor: pointer;
+  }
 }
